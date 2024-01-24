@@ -22,6 +22,7 @@ function Product({ product }) {
         </CardBody>
         <CardFooter className="text-small justify-between">
           <b className="text-lg">{product.name}</b>
+
           <p className="text-default-500 text-lg">{product.price}</p>
         </CardFooter>
       </Card>
